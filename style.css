@@ -1,0 +1,733 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    color: black;
+   
+}
+.hello{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.right{
+    margin-left: 600px;
+}
+.container{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+.pic{
+    width: 100%;
+    min-height: 700px;
+    background-image: url(./pics/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+.para{
+    position: absolute;
+    top: 211px;
+    left: 66px;
+}.size{
+    font-size: 67px;
+}.b{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.button{
+    font-size: x-large;
+    height: 60px;
+    border: none;
+    margin-top: 40px;
+}
+.about{
+    position: relative;
+}
+.company{
+    width: 100%;
+    position: absolute;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 100px;
+}
+
+
+
+.parent{
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 250px;
+    min-width: 300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.responsive{
+    
+    text-align: center;
+    width: 300px;
+}.icons{
+    position: absolute;
+    bottom: -170px;
+}
+.www{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: tomato; */
+    height: 500px;
+    top: 300px;
+}
+
+.work{
+    height: 30px;
+    background-color: black;
+    color: #fff;
+}
+.mobile{
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+}
+.hhh{
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+.ggg{
+    position: relative;
+    width: 100%;
+    top: 150px;
+}
+.qqq{
+    position: absolute;
+    width: 500px;
+    padding: 40px;
+}
+.card{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    top: 400px;
+}
+.ones{
+    width: 100%;
+    text-align: center;
+}
+.john{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.doe{
+    height: 150px;
+    width: 250px;
+}.star{
+    width: 250px;
+    height: 430px;
+    box-shadow:  1px 1px 3px black;
+}
+.but{
+    width: 200px;
+    height: 40px;
+    border-style: none;
+}
+.left{
+    margin-left: 15px;
+}
+.Done{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: gray;
+    top: 500px;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+}
+.next{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    top: 600px;
+}
+.people{
+    position: absolute;
+    left: auto;
+    text-align: center;
+}
+.tech{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+    top: 100px;
+}
+.ttt{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    top: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.float{
+    display: block;
+
+}
+.line1{
+    width: 500px;
+    background-color: grey;
+    height: 25px;
+    text-align: center;
+}
+.line2{
+    width: 450px;
+    background-color: grey;
+    height: 25px;
+    text-align: center;
+}
+.line3{
+    width: 400px;
+    background-color: grey;
+    height: 25px;
+    text-align: center;
+}
+.kkk{
+    width: 100%;
+    position: relative;
+    height: 900px;
+    background-color: grey;
+    top: 1200px;
+}
+.price{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    top: 100px;
+    color: #fff;
+}
+.rrr{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+    top: 300px;
+}
+.same{
+    width: 330px;
+    height: 500px;
+    color: #000;
+}
+.black{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+
+}
+.red{
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    height: 120px;
+}
+.white{
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    top: 50px;
+}
+.ooo{
+    width: 100px;
+    height: 60px;
+    border-style: none;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 10px;
+
+}.mmm{
+    position: relative;
+    width: 100%;
+    top: 1300px;
+    display: flex;
+    justify-content: center;
+
+}
+.ddd{
+    position: absolute;
+    text-align: center;
+}
+.lll{
+    position: relative;
+    width: 100%;
+    top: 1400px;
+}
+.iii{
+    position: absolute;
+    left: 50px;
+}
+.fff{
+    position: relative;
+    width: 100%;
+    top: 1550px;
+}.nnn{
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+}
+.input{
+    width: 1200px;
+}
+.jjj{
+    background-color: #000;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    color: #fff;
+}
+.map{
+    background-image: url(./pics/map.jpg);
+    width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 1850px;
+}
+.vvv{
+    position: relative;
+    top: 2000px; 
+    width: 100%;
+    height: 200px;
+    background-color:#000;
+    text-align: center;
+    
+}
+.sss{
+    background-color:#fff;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    color: #000;
+    
+}
+.xxx{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+.zzz{
+    color: #fff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .vvv{
+        position: relative;
+        top: 2350px; 
+        width: 100%;
+        height: 200px;
+        background-color:#000;
+        text-align: center;
+        
+    }
+    .map{
+        background-image: url(./pics/map.jpg);
+        width: 100%;
+        min-height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 2150px;
+    }
+    .fff{
+        position: relative;
+        width: 100%;
+        top: 1850px;
+    }
+    .input{
+        width: 900px;
+    }
+    .lll{
+        position: relative;
+        width: 100%;
+        top: 1650px;
+    }
+    .mmm{
+        position: relative;
+        width: 100%;
+        top: 1600px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .kkk{
+        width: 100%;
+        position: relative;
+        height: 1500px;
+        background-color: grey;
+        top: 2000px;
+    }
+    .ttt{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        top: 2000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .next{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        top: 1150px;
+    }
+    .Done{
+        position: relative;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: gray;
+        top: 1100px;
+        justify-content: space-around;
+        text-align: center;
+        align-content: center;
+    }
+    .container{
+        font-size:11px;
+        
+    }
+    .www{
+        width: auto;
+        height: auto;
+        font-size: smaller;
+    
+    }
+.size{
+    font-size: 50px;
+}.b{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.card{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    top: 800px;
+}
+}
+
+
+
+    @media screen and (max-width: 1050px){
+        .vvv{
+            position: relative;
+            top: 2650px; 
+            width: 100%;
+            height: 200px;
+            background-color:#000;
+            text-align: center;
+            
+        }
+        .map{
+            background-image: url(./pics/map.jpg);
+            width: 100%;
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            top: 2450px;
+        }
+        .fff{
+            position: relative;
+            width: 100%;
+            top: 2150px;
+        }
+        .input{
+            width: 800px;
+        }
+        .lll{
+        position: relative;
+        width: 100%;
+        top: 2000px;
+    }
+        .mmm{
+            position: relative;
+            width: 100%;
+            top: 1850px;
+            display: flex;
+            justify-content: center;
+        
+        }
+        .size{
+            font-size: 40px;
+        }.b{
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .container{
+            font-size:9px;
+
+            
+        }.icons{
+    position: absolute;
+    display: inherit;
+}
+.www{
+    width: auto;
+    height: auto;
+    font-size: xx-small;
+
+}
+.ggg{
+    position: absolute;
+    left: auto;
+    width: 500px;
+    top: 1px;
+}
+.hhh{
+    position: absolute;
+    right: auto;
+    top: 200px;
+}
+.card{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    top: 1000px;
+}
+
+    }
+    @media screen and (max-width: 900px) {
+        .right{
+            margin-left: 300px;
+        }
+        .vvv{
+            position: relative;
+            top:3300px; 
+            width: 100%;
+            height: 200px;
+            background-color:#000;
+            text-align: center;
+            
+        }
+        .map{
+            background-image: url(./pics/map.jpg);
+            width: 100%;
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            top: 3000px;
+        }
+        .fff{
+            position: relative;
+            width: 100%;
+            top: 2700px;
+        }
+        .input{
+            width: 700px;
+        }
+        .lll{
+            position: relative;
+            width: 100%;
+            top: 2550px;
+        }
+        .mmm{
+        position: relative;
+        width: 100%;
+        top: 2400px;
+        display: flex;
+        justify-content: center;
+    
+    }
+        body{
+            overflow-x: hidden;
+        }
+        .kkk{
+            width: 100%;
+            position: relative;
+            height: 1500px;
+            background-color: grey;
+            top: 2500px;
+        }
+        .ttt{
+            position: relative;
+            height: 400px;
+            width: 100%;
+            top: 2300px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: center;
+        }
+        
+    }
+    @media screen and (max-width: 680px){
+        .vvv{
+            position: relative;
+            top:3800px; 
+            width: 100%;
+            height: 200px;
+            background-color:#000;
+            text-align: center;
+            
+        }
+        .map{
+            background-image: url(./pics/map.jpg);
+            width: 100%;
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            top: 3600px;
+        }
+        .fff{
+            position: relative;
+            width: 100%;
+            top: 3300px;
+        }
+        .input{
+            width: 550px;
+        }
+        .lll{
+            position: relative;
+            width: 100%;
+            top: 3150px;
+        }
+        .mmm{
+            position: relative;
+            width: 100%;
+            top: 3000px;
+            display: flex;
+            justify-content: center;
+        
+        }
+        .kkk{
+            width: 100%;
+            position: relative;
+            height: 1900px;
+            background-color: grey;
+            top: 3000px;
+        }}
+    
+    @media screen and (max-width: 600px){
+        .input{
+            width: 390px;
+        }
+        .kkk{
+            width: 100%;
+            position: relative;
+            height: 1900px;
+            background-color: grey;
+            top: 3000px;
+        }
+        .ttt{
+            position: relative;
+            height: 400px;
+            width: auto;
+            top: 3000px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: center;
+        }
+        .size{
+            font-size: 30px;
+        }.b{
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        .container{
+            font-size:9px;
+        }
+.www{
+    width: auto;
+    height: auto;
+    font-size: xx-small;
+
+}
+.ggg{
+    position: absolute;
+    left: 50px;
+    top: 1px;
+}
+.hhh{
+    position: absolute;
+    left: 1px;
+    top: 200px;
+}
+.mobile{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    top: 1000px;
+}
+    }
+
+
+
